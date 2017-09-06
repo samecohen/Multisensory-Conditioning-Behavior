@@ -15,7 +15,7 @@ Use conditioning_analysis72717.m when analyzing individual trials. Input trial n
  
 ### Combined:
 
-Use conditioning_combined_analysis.m when analyzing multiple trials at once. *These trials must have already been analyzed individually using conditioning_analysis72717.m* Input array of trials in line 6. Output contains a plot of four new variables (vMeanMSI1All, vMeanMSI2All, msMeanMSI1All, msMeanMSI2All) which also contain two separate values: the average velocity at 0% visual contrast or 25% visual contrast. These new variables are simply the mean values of vMeanMSI1, vMeanMSI2, msMeanMSI1, and msMeanMSI2 over the specified number of trials.
+Use conditioning_combined_analysis.m when analyzing multiple trials at once. *These trials must have already been analyzed individually using conditioning_analysis72717.m*. Input array of trials in line 6. Output contains a plot of four new variables (vMeanMSI1All, vMeanMSI2All, msMeanMSI1All, msMeanMSI2All) which also contain two separate values: the average velocity at 0% visual contrast or 25% visual contrast. These new variables are simply the mean values of vMeanMSI1, vMeanMSI2, msMeanMSI1, and msMeanMSI2 over the specified number of trials.
 
 
 ## Exporting Trial Data to Excel
