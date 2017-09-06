@@ -11,12 +11,12 @@
 ### Individual:
 
   Use conditioning_analysis72717.m when analyzing individual trials. Input trial number in line 10 and the "marker" (time that first series of contrasting vertical bars appears in Multisensory_Conditioning_Assay_61917.m) in line 14. Run script. Output contains trial, marker, and four different variables (vMeanMSI1, vMeanMSI2, msMeanMSI1, and msMeanMSI2). Each variable contains two separate values: the average velocity (in mm/sec) at 0% visual contrast or 25% visual contrast, listed in this order.
-
+ 
 ### Combined:
 
-  Use conditioning_combined_analysis.m when analyzing multiple trials at once. *These trials must have already been analyzed individually using conditioning_analysis72717.m* Output contains a plot of four new variables (vMeanMSI1All, vMeanMSI2All, msMeanMSI1All, msMeanMSI2All) which also contain two separate values: the average velocity at 0% visual contrast or 25% visual contrast. These new variables are simply the mean values of vMeanMSI1, vMeanMSI2, msMeanMSI1, and msMeanMSI2 over the specified number of trials.
+  Use conditioning_combined_analysis.m when analyzing multiple trials at once. *These trials must have already been analyzed individually using conditioning_analysis72717.m* Input array of trials in line 6. Output contains a plot of four new variables (vMeanMSI1All, vMeanMSI2All, msMeanMSI1All, msMeanMSI2All) which also contain two separate values: the average velocity at 0% visual contrast or 25% visual contrast. These new variables are simply the mean values of vMeanMSI1, vMeanMSI2, msMeanMSI1, and msMeanMSI2 over the specified number of trials.
 
 
 ## Exporting Trial Data to Excel
 
-  Use MSCexport72717.m to export trial data to Excel. Input 
+  Use MSCexport72717.m to export trial data to Excel. Input array of trials in line 6. Set file name and sheet name in lines 9 and 10, respectively. 
